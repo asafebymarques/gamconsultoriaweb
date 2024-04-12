@@ -1,7 +1,9 @@
+'use client'
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
+import { useState } from "react";
 
 export const metadata: Metadata = {
   title: "Contact Page | Free Next.js Template for Startup and SaaS",
@@ -10,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => {
+
   return (
     <>
       <Breadcrumb

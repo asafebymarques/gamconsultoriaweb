@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["localhost"],
+    domains: ["img.freepik.com"],
     remotePatterns: [
       {
         protocol: "https",

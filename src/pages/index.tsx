@@ -10,16 +10,26 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+import { Blog as BlogEntity } from "@/types/blog";
+import { getBlogs } from "./blog/utils/getBlogs";
 
-export const metadata: Metadata = {
-  title: "Free Next.js Template for Startup and SaaS",
-  description: "This is Home for Startup Nextjs Template",
-  // other metadata
-};
+export async function getStaticProps() {
+  const blogsData = await getBlogs();
+  return {
+    props: {
+      blogsData
+    }
+  };
+}
 
-export default function Home() {
+export default function Home(props: { blogsData: [] }) {
+  const blogs = props.blogsData.map((blogData) => BlogEntity.fromMap(blogData))
+
   return (
     <>
+      <ToastContainer />
       <ScrollUp />
       <Hero />
       <Features />
@@ -29,7 +39,7 @@ export default function Home() {
       <AboutSectionTwo />
       <Testimonials />
       <Pricing />
-      <Blog />
+      <Blog blogs={blogs}/>
       <Contact />
     </>
   );

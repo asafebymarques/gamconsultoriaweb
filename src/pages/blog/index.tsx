@@ -1,16 +1,22 @@
 import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import { Blog as BlogEntity } from "@/types/blog";
+import { getBlogs } from "./utils/getBlogs";
 
-import { Metadata } from "next";
+export async function getStaticProps() {
+  const blogsData = await getBlogs();
 
-export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
-  // other metadata
-};
+  return {
+    props: {
+      blogsData
+    },
+  };
+}
 
-const Blog = () => {
+const Blog = (props: {blogsData: []}) => {
+  const blogs = props.blogsData.map((blogData) => BlogEntity.fromMap(blogData));
+
   return (
     <>
       <Breadcrumb
@@ -21,7 +27,7 @@ const Blog = () => {
       <section className="pb-[120px] pt-[120px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
-            {blogData.map((blog) => (
+            {blogs.map((blog) => (
               <div
                 key={blog.id}
                 className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
