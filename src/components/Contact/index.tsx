@@ -64,10 +64,13 @@ const Contact = () => {
               "
 						>
 							<h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-								Need Help? Open a Ticket
+								Entre em Contato Conosco
 							</h2>
 							<p className="mb-12 text-base font-medium text-body-color">
-								Our support team will get back to you ASAP via email.
+							Estamos aqui para ajudar você a impulsionar o sucesso de seu negócio com soluções de tecnologia inovadoras e eficazes.
+							 Entre em contato conosco hoje mesmo para agendar uma consulta ou para saber mais sobre nossos serviços.
+							  Nossa equipe de especialistas está pronta para atender às suas necessidades e ajudar a transformar suas ideias em realidade digital.
+								 A Gam Consultoria é o seu parceiro confiável em tecnologia.
 							</p>
 							<form onSubmit={submit}>
 								<div className="-mx-4 flex flex-wrap">
@@ -77,14 +80,14 @@ const Contact = () => {
 												htmlFor="name"
 												className="mb-3 block text-sm font-medium text-dark dark:text-white"
 											>
-												Your Name
+												Nome
 											</label>
 											<input
 												type="text"
 												name="name"
                         value={name}
                         onChange={(text) => {setName(text.target.value)}}
-												placeholder="Enter your name"
+												placeholder="Digite seu nome..."
 												className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         required
                       />
@@ -96,14 +99,14 @@ const Contact = () => {
 												htmlFor="email"
 												className="mb-3 block text-sm font-medium text-dark dark:text-white"
 											>
-												Your Email
+												Email
 											</label>
 											<input
 												name="email"
 												type="email"
                         value={email}
                         onChange={(text) => {setEmail(text.target.value)}}
-												placeholder="Enter your email"
+												placeholder="Digite seu email..."
 												className="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         required
                       />
@@ -115,14 +118,14 @@ const Contact = () => {
 												htmlFor="message"
 												className="mb-3 block text-sm font-medium text-dark dark:text-white"
 											>
-												Your Message
+												Mensagem
 											</label>
 											<textarea
 												name="message"
 												rows={5}
                         value={message}
                         onChange={(text) => {setMessage(text.target.value)}}
-												placeholder="Enter your Message"
+												placeholder="Mensagem..."
 												className="border-stroke w-full resize-none rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                         required
                       ></textarea>
@@ -130,7 +133,7 @@ const Contact = () => {
 									</div>
 									<div className="w-full px-4">
 										<button type="submit" className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-											Submit Ticket
+											Enviar
 										</button>
 									</div>
 								</div>

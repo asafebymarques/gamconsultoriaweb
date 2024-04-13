@@ -30,6 +30,7 @@ export default function Home(props: { blogsData: [] }) {
   /**
    *  <Pricing />
       <Blog blogs={blogs}/>
+      <Testimonials />
    */
 
   return (
@@ -42,7 +43,6 @@ export default function Home(props: { blogsData: [] }) {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
       <Contact />
     </>
   );
