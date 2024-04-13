@@ -14,8 +14,8 @@ const AboutPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        pageName="Sobre Nós"
+        description="A GAM Consultoria se destaca como referência em excelência e inovação na indústria de Tecnologia da Informação com um compromisso inabalável com a qualidade, eficiência e vanguarda tecnológica, nossa empresa tem constantemente superado expectativas e estabelecido novos padrões no setor. Conheça como criamos valor por meio da tecnologia em www.gamconsultoria.com.br e conecte-se conosco @gamconsultoria nas redes sociais."
       />
       <AboutSectionOne />
       <AboutSectionTwo />
