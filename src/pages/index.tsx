@@ -27,6 +27,11 @@ export async function getStaticProps() {
 export default function Home(props: { blogsData: [] }) {
   const blogs = props.blogsData.map((blogData) => BlogEntity.fromMap(blogData))
 
+  /**
+   *  <Pricing />
+      <Blog blogs={blogs}/>
+   */
+
   return (
     <>
       <ToastContainer />
@@ -38,8 +43,6 @@ export default function Home(props: { blogsData: [] }) {
       <AboutSectionOne />
       <AboutSectionTwo />
       <Testimonials />
-      <Pricing />
-      <Blog blogs={blogs}/>
       <Contact />
     </>
   );

@@ -28,29 +28,30 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Análise Profunda
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Antes de iniciar qualquer projeto, realizamos uma análise detalhada das necessidades e objetivos de nossos clientes.
+                 Isso nos permite entender completamente os desafios específicos que eles enfrentam e desenvolver soluções sob medida para atender às suas necessidades.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Colaboração Contínua
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                Acreditamos na importância da colaboração contínua com nossos clientes ao longo de todo o processo de trabalho.
+                 Mantemos uma comunicação aberta e transparente,
+                 garantindo que nossos clientes estejam sempre atualizados e envolvidos no desenvolvimento de seus projetos.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Excelência na Execução
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                Nosso compromisso com a excelência se reflete em cada etapa de nosso trabalho.
+                 Utilizamos as melhores práticas da indústria e as tecnologias mais recentes para garantir que nossos clientes recebam soluções de alta qualidade que atendam e superem suas expectativas.
                 </p>
               </div>
             </div>

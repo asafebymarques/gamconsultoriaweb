@@ -77,7 +77,7 @@ const featuresData: Feature[] = [
     ),
     title: "Software e Aplicativos",
     paragraph:
-      "A Gam Consultoria desenvolve softwares e aplicativos personalizados, atendendo às necessidades específicas de cada cliente com soluções tecnológicas inovadoras.",
+      "Desenvolvemos softwares e aplicativos personalizados, atendendo às necessidades específicas de cada cliente com soluções tecnológicas inovadoras.",
   },
   {
     id: 1,
@@ -157,7 +157,7 @@ const featuresData: Feature[] = [
     ),
     title: "Lojas Virtual e E-commerces",
     paragraph:
-      "A Gam Consultoria cria lojas virtuais e e-commerces personalizados, impulsionando o sucesso online de seus clientes com soluções tecnológicas inovadoras.",
+      "Desenvolvemos lojas virtuais e e-commerces personalizados, impulsionando o sucesso online de nossos clientes com soluções tecnológicas inovadoras.",
   },
   {
     id: 1,
@@ -209,7 +209,7 @@ const featuresData: Feature[] = [
     ),
     title: "Outsourcing",
     paragraph:
-      "A Gam Consultoria oferece serviços de outsourcing de TI, proporcionando soluções tecnológicas personalizadas para empresas de todos os tamanhos.",
+      "Oferecemos serviços de outsourcing de TI, proporcionando soluções tecnológicas personalizadas para empresas de todos os tamanhos.",
   },
   {
     id: 1,
@@ -295,7 +295,7 @@ const featuresData: Feature[] = [
     ),
     title: "Consultoria de Tecnologia",
     paragraph:
-      "A Gam Consultoria oferece consultoria em tecnologia, ajudando empresas a alcançar seus objetivos por meio de soluções inovadoras e eficientes.",
+      "Nossa consultoria em tecnologia ajuda empresas a alcançar seus objetivos por meio de soluções inovadoras e eficientes.",
   },
   {
     id: 1,
@@ -444,7 +444,7 @@ const featuresData: Feature[] = [
     ),
     title: "Marketing Digital",
     paragraph:
-      "A Gam Consultoria é especializada em marketing digital, impulsionando a presença online e o crescimento de empresas com estratégias eficazes e personalizadas.",
+      "Somos especializados em marketing digital, impulsionando a presença online e o crescimento de empresas com estratégias eficazes e personalizadas.",
   },
   {
     id: 1,
@@ -521,7 +521,7 @@ const featuresData: Feature[] = [
     ),
     title: "Cibersegurança",
     paragraph:
-      "A Gam Consultoria oferece soluções abrangentes de cibersegurança, protegendo empresas contra ameaças digitais e garantindo a segurança de seus dados e sistemas.",
+      "Oferecemos soluções abrangentes de cibersegurança, protegendo empresas contra ameaças digitais e garantindo a segurança de seus dados e sistemas.",
   },
 ];
 export default featuresData;

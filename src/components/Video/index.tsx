@@ -13,8 +13,8 @@ const Video = () => {
     <section className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="We are ready to help"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Sobre Nós"
+          paragraph="A Gam Consultoria é uma empresa especializada em oferecer soluções inovadoras para seus clientes. Nossa equipe altamente qualificada e experiente trabalha com paixão e comprometimento para fornecer serviços de alta qualidade em desenvolvimento de softwares, consultoria em tecnologia, marketing digital, cibersegurança, e muito mais. Assista ao nosso vídeo e descubra como podemos ajudar sua empresa a alcançar o sucesso digital."
           center
           mb="80px"
         />
