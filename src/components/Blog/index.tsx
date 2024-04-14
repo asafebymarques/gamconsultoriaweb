@@ -1,4 +1,4 @@
-import { getBlogs } from "@/pages/blog/utils/getBlogs";
+import  getBlogs  from "@/pages/blog/utils/getBlogs";
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import { Blog as BlogEntity } from "@/types/blog";

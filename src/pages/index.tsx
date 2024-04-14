@@ -13,7 +13,7 @@ import { Metadata } from "next";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { Blog as BlogEntity } from "@/types/blog";
-import { getBlogs } from "./blog/utils/getBlogs";
+import  getBlogs  from "./blog/utils/getBlogs";
 
 export async function getStaticProps() {
   const blogsData = await getBlogs();

@@ -2,7 +2,7 @@ import SingleBlog from "@/components/Blog/SingleBlog";
 import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Blog as BlogEntity } from "@/types/blog";
-import { getBlogs } from "./utils/getBlogs";
+import  getBlogs  from "./utils/getBlogs";
 
 export async function getStaticProps() {
   const blogsData = await getBlogs();
